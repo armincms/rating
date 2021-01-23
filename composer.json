@@ -1,0 +1,30 @@
+{
+    "name": "armincms/rating",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "willvincent/laravel-rateable": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armincms\\Rating\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Armincms\\Rating\\RatingServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
