@@ -1,0 +1,2 @@
+# rating
+Armincms Rating package
